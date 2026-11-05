@@ -1,0 +1,9 @@
+{
+  "name": "piano-cafe-concept",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "check": "node --check app.js && node --check i18n.js && node --check menu-data.js"
+  }
+}
